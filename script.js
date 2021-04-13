@@ -1,7 +1,7 @@
 Nimiq.load().then(async function () {
 
     // Configure for Testnet. For Mainnet, use main().
-    Nimiq.GenesisConfig.test();
+    Nimiq.GenesisConfig.main();
 
     // Instantiate a config builder.
     const configBuilder = Nimiq.Client.Configuration.builder();
